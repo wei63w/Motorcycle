@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "844AE65E066CBE50093622B68136AB57978F6A10",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "47AAA79D0C9B0FB8047024C65747D1853F1605C7" : 0,
+    "844AE65E066CBE50093622B68136AB57978F6A10" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "E9EFE9F0-5421-46AA-B711-A39DE615ACDA",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "47AAA79D0C9B0FB8047024C65747D1853F1605C7" : "",
+    "844AE65E066CBE50093622B68136AB57978F6A10" : "Motorcycle\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Motorcycle",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Motorcycle.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/wei63w\/TotalTest.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "47AAA79D0C9B0FB8047024C65747D1853F1605C7"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/wei63w\/Motorcycle.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "844AE65E066CBE50093622B68136AB57978F6A10"
+    }
+  ]
+}

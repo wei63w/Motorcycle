@@ -6,5 +6,6 @@ pod 'AFNetworking', '~> 3.0'
 pod 'MJExtension'
 pod 'MJRefresh'
 pod 'MBProgressHUD', '~> 1.0.0'
+pod 'MMDrawerController', '~> 0.5.7'
 end
 

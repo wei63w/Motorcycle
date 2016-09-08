@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  NavigationController.h
 //  Motorcycle
 //
 //  Created by genilex3 on 16/9/8.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface NavigationController : UINavigationController
 
 @end
-

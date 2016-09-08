@@ -9,12 +9,13 @@
 /* Begin PBXBuildFile section */
 		2383B3E41D815B660064C5A6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2383B3E31D815B660064C5A6 /* main.m */; };
 		2383B3E71D815B660064C5A6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2383B3E61D815B660064C5A6 /* AppDelegate.m */; };
-		2383B3EA1D815B660064C5A6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2383B3E91D815B660064C5A6 /* ViewController.m */; };
-		2383B3ED1D815B660064C5A6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2383B3EB1D815B660064C5A6 /* Main.storyboard */; };
 		2383B3EF1D815B660064C5A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2383B3EE1D815B660064C5A6 /* Assets.xcassets */; };
 		2383B3F21D815B660064C5A6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2383B3F01D815B660064C5A6 /* LaunchScreen.storyboard */; };
 		2383B3FD1D815B660064C5A6 /* MotorcycleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2383B3FC1D815B660064C5A6 /* MotorcycleTests.m */; };
 		2383B4081D815B660064C5A6 /* MotorcycleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2383B4071D815B660064C5A6 /* MotorcycleUITests.m */; };
+		23AE1ED51D8164220079141D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23AE1ED41D8164220079141D /* Main.storyboard */; };
+		23AE1ED81D81643C0079141D /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23AE1ED71D81643C0079141D /* MainViewController.m */; };
+		23AE1EDC1D81649A0079141D /* NavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23AE1EDB1D81649A0079141D /* NavigationController.m */; };
 		DA75D539A2D14695DA6F3D25 /* libPods-Motorcycle.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DDC50FEDC20761E5D598CE50 /* libPods-Motorcycle.a */; };
 /* End PBXBuildFile section */
 
@@ -40,9 +41,6 @@
 		2383B3E31D815B660064C5A6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2383B3E51D815B660064C5A6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		2383B3E61D815B660064C5A6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		2383B3E81D815B660064C5A6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		2383B3E91D815B660064C5A6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		2383B3EC1D815B660064C5A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2383B3EE1D815B660064C5A6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2383B3F11D815B660064C5A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2383B3F31D815B660064C5A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -52,6 +50,11 @@
 		2383B4031D815B660064C5A6 /* MotorcycleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MotorcycleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2383B4071D815B660064C5A6 /* MotorcycleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MotorcycleUITests.m; sourceTree = "<group>"; };
 		2383B4091D815B660064C5A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		23AE1ED41D8164220079141D /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		23AE1ED61D81643C0079141D /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		23AE1ED71D81643C0079141D /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		23AE1EDA1D81649A0079141D /* NavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavigationController.h; sourceTree = "<group>"; };
+		23AE1EDB1D81649A0079141D /* NavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavigationController.m; sourceTree = "<group>"; };
 		2CDC3352DAB1BE64202ACE31 /* Pods-Motorcycle.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Motorcycle.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Motorcycle/Pods-Motorcycle.debug.xcconfig"; sourceTree = "<group>"; };
 		C67FA31086D47BEB3681E051 /* Pods-Motorcycle.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Motorcycle.release.xcconfig"; path = "Pods/Target Support Files/Pods-Motorcycle/Pods-Motorcycle.release.xcconfig"; sourceTree = "<group>"; };
 		DDC50FEDC20761E5D598CE50 /* libPods-Motorcycle.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Motorcycle.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -108,11 +111,9 @@
 		2383B3E11D815B660064C5A6 /* Motorcycle */ = {
 			isa = PBXGroup;
 			children = (
-				2383B3E51D815B660064C5A6 /* AppDelegate.h */,
-				2383B3E61D815B660064C5A6 /* AppDelegate.m */,
-				2383B3E81D815B660064C5A6 /* ViewController.h */,
-				2383B3E91D815B660064C5A6 /* ViewController.m */,
-				2383B3EB1D815B660064C5A6 /* Main.storyboard */,
+				23AE1EDD1D8164B70079141D /* Other */,
+				23AE1ED91D8164530079141D /* Nav */,
+				23AE1ED31D8164100079141D /* Main */,
 				2383B3EE1D815B660064C5A6 /* Assets.xcassets */,
 				2383B3F01D815B660064C5A6 /* LaunchScreen.storyboard */,
 				2383B3F31D815B660064C5A6 /* Info.plist */,
@@ -145,6 +146,34 @@
 				2383B4091D815B660064C5A6 /* Info.plist */,
 			);
 			path = MotorcycleUITests;
+			sourceTree = "<group>";
+		};
+		23AE1ED31D8164100079141D /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				23AE1ED41D8164220079141D /* Main.storyboard */,
+				23AE1ED61D81643C0079141D /* MainViewController.h */,
+				23AE1ED71D81643C0079141D /* MainViewController.m */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+		23AE1ED91D8164530079141D /* Nav */ = {
+			isa = PBXGroup;
+			children = (
+				23AE1EDA1D81649A0079141D /* NavigationController.h */,
+				23AE1EDB1D81649A0079141D /* NavigationController.m */,
+			);
+			name = Nav;
+			sourceTree = "<group>";
+		};
+		23AE1EDD1D8164B70079141D /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				2383B3E51D815B660064C5A6 /* AppDelegate.h */,
+				2383B3E61D815B660064C5A6 /* AppDelegate.m */,
+			);
+			name = Other;
 			sourceTree = "<group>";
 		};
 		2887ABB1681BC96B99123C98 /* Pods */ = {
@@ -270,9 +299,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				23AE1ED51D8164220079141D /* Main.storyboard in Resources */,
 				2383B3F21D815B660064C5A6 /* LaunchScreen.storyboard in Resources */,
 				2383B3EF1D815B660064C5A6 /* Assets.xcassets in Resources */,
-				2383B3ED1D815B660064C5A6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -345,8 +374,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2383B3EA1D815B660064C5A6 /* ViewController.m in Sources */,
 				2383B3E71D815B660064C5A6 /* AppDelegate.m in Sources */,
+				23AE1EDC1D81649A0079141D /* NavigationController.m in Sources */,
+				23AE1ED81D81643C0079141D /* MainViewController.m in Sources */,
 				2383B3E41D815B660064C5A6 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -383,14 +413,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		2383B3EB1D815B660064C5A6 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2383B3EC1D815B660064C5A6 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		2383B3F01D815B660064C5A6 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
