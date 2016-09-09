@@ -2,32 +2,61 @@
 //  AppDelegate.m
 //  Motorcycle
 //
-//  Created by genilex3 on 16/9/8.
+//  Created by WYC on 16/9/8.
 //  Copyright © 2016年 wei63w. All rights reserved.
 //
 
 #import "AppDelegate.h"
 #import "NavigationController.h"
+#import "MMDrawerController.h"
+#import "MainViewController.h"
+#import "LeftViewController.h"
+#import "WycTabbarViewController.h"
 
 @interface AppDelegate ()
 
+@property (nonatomic,strong) MMDrawerController * drawerController;
+
+@property (nonatomic, strong) WycTabbarViewController *tabBar;
 @end
 
 @implementation AppDelegate
 
+-(BOOL)application:(UIApplication *)application willFinishLaunchingWithOptions:(NSDictionary *)launchOptions{
+    
+    
+    
+    UIStoryboard *mainStoryboard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
+    
+    LeftViewController *leftDrawer = [mainStoryboard instantiateViewControllerWithIdentifier:@"LeftViewController"];
+    self.tabBar = [[WycTabbarViewController alloc]init];
+    
+    self.drawerController = [[MMDrawerController alloc]
+                                             initWithCenterViewController:self.tabBar
+                                             leftDrawerViewController:leftDrawer
+                                             rightDrawerViewController:nil];
+    [self.drawerController setShowsShadow:NO];
+    [self.drawerController setRestorationIdentifier:@"MMDrawer"];
+    [self.drawerController setMaximumRightDrawerWidth:200.0];
+    [self.drawerController setOpenDrawerGestureModeMask:MMOpenDrawerGestureModeAll];
+    [self.drawerController setCloseDrawerGestureModeMask:MMCloseDrawerGestureModeAll];
+    
+    self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
+
+    
+    [self.window setRootViewController:self.drawerController];
+    
+    
+    return YES;
+}
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     
-    self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
     
     [self.window setBackgroundColor:[UIColor whiteColor]];
+
     
-    NavigationController *nav = [[NavigationController alloc]init];
- 
-    [self.window setRootViewController:nav];
-    
- 
     [self.window makeKeyAndVisible];
  
     return YES;

@@ -2,11 +2,15 @@
 //  MainViewController.m
 //  Motorcycle
 //
-//  Created by genilex3 on 16/9/8.
+//  Created by WYC on 16/9/8.
 //  Copyright © 2016年 wei63w. All rights reserved.
 //
 
 #import "MainViewController.h"
+#import "UIViewController+MMDrawerController.h"
+#import "MMDrawerBarButtonItem.h"
+
+
 
 @interface MainViewController ()
 
@@ -17,7 +21,47 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    self.title = @"Home";
+    [self setupLeftMenuButton];
+    [self setupRightMenuButton];
+    UIColor * barColor = [UIColor
+                          colorWithRed:247.0/255.0
+                          green:249.0/255.0
+                          blue:250.0/255.0
+                          alpha:1.0];
+    [self.navigationController.navigationBar setBarTintColor:barColor];
+    
+    UIButton *titleBtn = [UIButton buttonWithType:UIButtonTypeCustom];
+    [titleBtn setTitle:@"首页" forState:UIControlStateNormal];
+    [titleBtn setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
+    [self.navigationItem setTitleView:titleBtn];
 }
+
+
+-(void)setupLeftMenuButton{
+    MMDrawerBarButtonItem * leftDrawerButton = [[MMDrawerBarButtonItem alloc] initWithTarget:self action:@selector(leftDrawerButtonPress:)];
+    [self.navigationItem setLeftBarButtonItem:leftDrawerButton animated:YES];
+}
+
+-(void)setupRightMenuButton{
+    MMDrawerBarButtonItem * rightDrawerButton = [[MMDrawerBarButtonItem alloc] initWithTarget:self action:@selector(rightDrawerButtonPress:)];
+    [self.navigationItem setRightBarButtonItem:rightDrawerButton animated:YES];
+}
+
+#pragma mark - Button Handlers
+-(void)leftDrawerButtonPress:(id)sender{
+    [self.mm_drawerController toggleDrawerSide:MMDrawerSideLeft animated:YES completion:nil];
+}
+
+-(void)rightDrawerButtonPress:(id)sender{
+    NSLog(@"rightBarTouch");
+//    [self.mm_drawerController toggleDrawerSide:MMDrawerSideRight animated:YES completion:nil];
+}
+
+
+
+
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

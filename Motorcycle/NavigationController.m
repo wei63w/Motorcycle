@@ -2,14 +2,19 @@
 //  NavigationController.m
 //  Motorcycle
 //
-//  Created by genilex3 on 16/9/8.
+//  Created by WYC on 16/9/8.
 //  Copyright © 2016年 wei63w. All rights reserved.
 //
 
 #import "NavigationController.h"
 #import "MainViewController.h"
+#import "MineViewController.h"
+#import "UIViewController+MMDrawerController.h"
+#import "MMDrawerBarButtonItem.h"
 
 @interface NavigationController ()
+
+@property (nonatomic, strong) UITabBarController *tabbarController;
 
 @end
 
@@ -19,13 +24,16 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     
-    UIStoryboard *sb = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
-    MainViewController *home = sb.instantiateInitialViewController;
+    // 使导航条有效
+    [self setNavigationBarHidden:NO];
+    // 显示导航条，但由于导航条有效，系统的返回按钮页有效，所以可以使用系统的右滑返回手势。
+    [self.navigationBar setHidden:NO];
     
-    
-    [self addChildViewController:home];
+    // 是否可右滑返回
+    self.interactivePopGestureRecognizer.enabled = YES;
     
 }
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

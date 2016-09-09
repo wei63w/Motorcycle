@@ -16,6 +16,10 @@
 		23AE1ED51D8164220079141D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23AE1ED41D8164220079141D /* Main.storyboard */; };
 		23AE1ED81D81643C0079141D /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23AE1ED71D81643C0079141D /* MainViewController.m */; };
 		23AE1EDC1D81649A0079141D /* NavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23AE1EDB1D81649A0079141D /* NavigationController.m */; };
+		23AE1EE01D8251370079141D /* LeftViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23AE1EDF1D8251370079141D /* LeftViewController.m */; };
+		23AE1EE41D82675E0079141D /* MineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23AE1EE31D82675E0079141D /* MineViewController.m */; };
+		23AE1EE61D82677B0079141D /* MineViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23AE1EE51D82677B0079141D /* MineViewController.storyboard */; };
+		23AE1EE91D8281CE0079141D /* WycTabbarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23AE1EE81D8281CE0079141D /* WycTabbarViewController.m */; };
 		DA75D539A2D14695DA6F3D25 /* libPods-Motorcycle.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DDC50FEDC20761E5D598CE50 /* libPods-Motorcycle.a */; };
 /* End PBXBuildFile section */
 
@@ -38,23 +42,30 @@
 
 /* Begin PBXFileReference section */
 		2383B3DF1D815B660064C5A6 /* Motorcycle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Motorcycle.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		2383B3E31D815B660064C5A6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		2383B3E51D815B660064C5A6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		2383B3E61D815B660064C5A6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2383B3E31D815B660064C5A6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = main.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		2383B3E51D815B660064C5A6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = AppDelegate.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		2383B3E61D815B660064C5A6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = AppDelegate.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		2383B3EE1D815B660064C5A6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2383B3F11D815B660064C5A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2383B3F31D815B660064C5A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2383B3F81D815B660064C5A6 /* MotorcycleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MotorcycleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		2383B3FC1D815B660064C5A6 /* MotorcycleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MotorcycleTests.m; sourceTree = "<group>"; };
+		2383B3FC1D815B660064C5A6 /* MotorcycleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = MotorcycleTests.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		2383B3FE1D815B660064C5A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2383B4031D815B660064C5A6 /* MotorcycleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MotorcycleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		2383B4071D815B660064C5A6 /* MotorcycleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MotorcycleUITests.m; sourceTree = "<group>"; };
+		2383B4071D815B660064C5A6 /* MotorcycleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = MotorcycleUITests.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		2383B4091D815B660064C5A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		23AE1ED41D8164220079141D /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
-		23AE1ED61D81643C0079141D /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
-		23AE1ED71D81643C0079141D /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
-		23AE1EDA1D81649A0079141D /* NavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavigationController.h; sourceTree = "<group>"; };
-		23AE1EDB1D81649A0079141D /* NavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavigationController.m; sourceTree = "<group>"; };
+		23AE1ED61D81643C0079141D /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = MainViewController.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		23AE1ED71D81643C0079141D /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = MainViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		23AE1EDA1D81649A0079141D /* NavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = NavigationController.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		23AE1EDB1D81649A0079141D /* NavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = NavigationController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		23AE1EDE1D8251370079141D /* LeftViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = LeftViewController.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		23AE1EDF1D8251370079141D /* LeftViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = LeftViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		23AE1EE21D82675E0079141D /* MineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = MineViewController.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		23AE1EE31D82675E0079141D /* MineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = MineViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		23AE1EE51D82677B0079141D /* MineViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MineViewController.storyboard; sourceTree = "<group>"; };
+		23AE1EE71D8281CE0079141D /* WycTabbarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = WycTabbarViewController.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		23AE1EE81D8281CE0079141D /* WycTabbarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = WycTabbarViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		2CDC3352DAB1BE64202ACE31 /* Pods-Motorcycle.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Motorcycle.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Motorcycle/Pods-Motorcycle.debug.xcconfig"; sourceTree = "<group>"; };
 		C67FA31086D47BEB3681E051 /* Pods-Motorcycle.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Motorcycle.release.xcconfig"; path = "Pods/Target Support Files/Pods-Motorcycle/Pods-Motorcycle.release.xcconfig"; sourceTree = "<group>"; };
 		DDC50FEDC20761E5D598CE50 /* libPods-Motorcycle.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Motorcycle.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -111,6 +122,7 @@
 		2383B3E11D815B660064C5A6 /* Motorcycle */ = {
 			isa = PBXGroup;
 			children = (
+				23AE1EE11D8267520079141D /* Mine */,
 				23AE1EDD1D8164B70079141D /* Other */,
 				23AE1ED91D8164530079141D /* Nav */,
 				23AE1ED31D8164100079141D /* Main */,
@@ -163,6 +175,10 @@
 			children = (
 				23AE1EDA1D81649A0079141D /* NavigationController.h */,
 				23AE1EDB1D81649A0079141D /* NavigationController.m */,
+				23AE1EDE1D8251370079141D /* LeftViewController.h */,
+				23AE1EDF1D8251370079141D /* LeftViewController.m */,
+				23AE1EE71D8281CE0079141D /* WycTabbarViewController.h */,
+				23AE1EE81D8281CE0079141D /* WycTabbarViewController.m */,
 			);
 			name = Nav;
 			sourceTree = "<group>";
@@ -174,6 +190,16 @@
 				2383B3E61D815B660064C5A6 /* AppDelegate.m */,
 			);
 			name = Other;
+			sourceTree = "<group>";
+		};
+		23AE1EE11D8267520079141D /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+				23AE1EE21D82675E0079141D /* MineViewController.h */,
+				23AE1EE31D82675E0079141D /* MineViewController.m */,
+				23AE1EE51D82677B0079141D /* MineViewController.storyboard */,
+			);
+			name = Mine;
 			sourceTree = "<group>";
 		};
 		2887ABB1681BC96B99123C98 /* Pods */ = {
@@ -299,6 +325,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				23AE1EE61D82677B0079141D /* MineViewController.storyboard in Resources */,
 				23AE1ED51D8164220079141D /* Main.storyboard in Resources */,
 				2383B3F21D815B660064C5A6 /* LaunchScreen.storyboard in Resources */,
 				2383B3EF1D815B660064C5A6 /* Assets.xcassets in Resources */,
@@ -375,7 +402,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				2383B3E71D815B660064C5A6 /* AppDelegate.m in Sources */,
+				23AE1EE91D8281CE0079141D /* WycTabbarViewController.m in Sources */,
+				23AE1EE01D8251370079141D /* LeftViewController.m in Sources */,
 				23AE1EDC1D81649A0079141D /* NavigationController.m in Sources */,
+				23AE1EE41D82675E0079141D /* MineViewController.m in Sources */,
 				23AE1ED81D81643C0079141D /* MainViewController.m in Sources */,
 				2383B3E41D815B660064C5A6 /* main.m in Sources */,
 			);
